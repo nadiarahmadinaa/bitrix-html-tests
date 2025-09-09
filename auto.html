@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXA Auto - Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 500px;
+            background: white;
+            border-radius: 20px;
+            padding: 50px 30px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            margin: 20px;
+        }
+        
+        .logo {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(45deg, #e74c3c, #f39c12);
+            border-radius: 50%;
+            margin: 0 auto 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: white;
+            font-weight: bold;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        
+        .form-notice {
+            background: linear-gradient(45deg, #27ae60, #2ecc71);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+        }
+        
+        .form-notice h2 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+        
+        .form-notice p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            color: #34495e;
+        }
+        
+        .form-arrow {
+            position: fixed;
+            bottom: 80px;
+            right: 80px;
+            background: #e74c3c;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 25px;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+            z-index: 1000;
+            box-shadow: 0 5px 15px rgba(231,76,60,0.4);
+            font-size: 0.9rem;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .status {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container { 
+                padding: 30px 20px; 
+                margin: 10px;
+            }
+            h1 { font-size: 1.8rem; }
+            .form-arrow { 
+                bottom: 60px; 
+                right: 20px; 
+                padding: 10px 15px;
+                font-size: 0.8rem;
+            }
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">AUTO</div>
+        <h1>EXA Auto</h1>
+        <p class="subtitle">Professional Vehicle Services</p>
+        
+        <div class="features">
+            <div class="feature">Fleet Management</div>
+            <div class="feature">Vehicle Maintenance</div>
+            <div class="feature">Parts Supply</div>
+            <div class="feature">Emergency Service</div>
+        </div>
+        
+        <div class="form-notice">
+            <h2>Get Automotive Support</h2>
+            <p>Submit your vehicle service inquiry using our contact form. Our automotive specialists will respond promptly with solutions for your fleet management and maintenance needs.</p>
+        </div>
+        
+        <div class="status">
+            <strong>Testing:</strong> Forms & CRM Integration<br>
+            Submit inquiries to test lead generation
+        </div>
+    </div>
+
+
+    <script>
+        (function(w,d,u){
+            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://devel.aurorasoft.id/upload/crm/site_button/loader_2_njoucy.js');
+    </script>
+</body>
+</html>
